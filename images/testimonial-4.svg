@@ -1,0 +1,35 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#F0F7FF"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="90" r="60" fill="#FFFFFF" stroke="#4F92FF" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <circle cx="80" cy="80" r="6" fill="#1E293B"/>
+  <circle cx="120" cy="80" r="6" fill="#1E293B"/>
+  
+  <!-- Eyebrows -->
+  <path d="M70 68 Q80 63 90 68" stroke="#1E293B" stroke-width="2" fill="none"/>
+  <path d="M110 68 Q120 63 130 68" stroke="#1E293B" stroke-width="2" fill="none"/>
+  
+  <!-- Smile -->
+  <path d="M75 100 Q100 120 125 100" stroke="#1E293B" stroke-width="2" fill="none"/>
+  
+  <!-- Hair -->
+  <path d="M50 40 Q100 10 150 40 L150 60 Q100 40 50 60 Z" fill="#1E293B"/>
+  
+  <!-- Mustache -->
+  <path d="M85 95 Q100 105 115 95" stroke="#1E293B" stroke-width="3" fill="none"/>
+  
+  <!-- Beard -->
+  <path d="M75 100 Q100 130 125 100 L125 120 Q100 140 75 120 Z" fill="#1E293B" opacity="0.7"/>
+  
+  <!-- Shoulders/Body -->
+  <path d="M60 150 Q100 130 140 150 L150 200 L50 200 Z" fill="#4F92FF" opacity="0.3"/>
+  
+  <!-- Glasses -->
+  <rect x="70" y="75" width="20" height="15" rx="5" fill="none" stroke="#1E293B" stroke-width="2"/>
+  <rect x="110" y="75" width="20" height="15" rx="5" fill="none" stroke="#1E293B" stroke-width="2"/>
+  <line x1="90" y1="82" x2="110" y2="82" stroke="#1E293B" stroke-width="2"/>
+</svg>
